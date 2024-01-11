@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Seller Dashboard</h1>
+
+    <div>
+        <h2>Add Item</h2>
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" placeholder="Enter item name">
+
+        <label for="itemDescription">Description:</label>
+        <input type="text" id="itemDescription" placeholder="Enter item description">
+
+        <label for="itemPrice">Price:</label>
+        <input type="number" id="itemPrice" placeholder="Enter item price">
+
+        <label for="itemQuantity">Quantity:</label>
+        <input type="number" id="itemQuantity" placeholder="Enter item quantity">
+
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <div>
+        <h2>Item List</h2>
+        <ul id="itemList"></ul>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
